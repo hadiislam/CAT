@@ -33,10 +33,10 @@ class main:
           if int(cmd)>=1 and int(cmd)<=int(total):
             os.system("clear")
             logo.installing()
-            print("GRinstalling ....\033[m")
+            print("\033[32minstalling ....\033[m")
             tool.install(tool.names[int(cmd)-1])
           else:
-            print(f"RDSorry '{cmd}' invalid input !!\033[m")
+            print(f"\033[31mSorry '{cmd}' invalid input !!\033[m")
             sleep(1)
         except ValueError:
           print(f"RDSorry '{cmd}' invalid input !!")
@@ -77,7 +77,7 @@ class main:
                   cnt+=1
               print("")
               logo.back()
-              tcmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+              tcmd=input("\033[m[\033[32m*\033[m]\033[32m Choose : \033[m")
               if tcmd=="00" or tcmd=="back":
                 break
               else:
@@ -86,19 +86,19 @@ class main:
                   if int(tcmd) in range(1,int(cat_total)+1):
                     os.system("clear")
                     logo.installing()
-                    print("GRinstalling ....\033[m")
+                    print("\033[32mInstalling ....\033[m")
                     tool.install(tmp_cat_tool[int(tcmd)-1])
                   else:
-                    print(f"RDSorry '{tcmd}' invalid input !!\033[m")
+                    print(f"\033[31mSorry '{tcmd}' invalid input !!\033[m")
                     sleep(1)
                 except ValueError:
-                  print(f"RDSorry '{tcmd}' invalid input !!\033[m")
+                  print(f"\033[31mSorry '{tcmd}' invalid input !!\033[m")
                   sleep(1)
           else:
-            print(f"RDSorry '{cmd}' invalid input !!\033[m")
+            print(f"\033[31mSorry '{cmd}' invalid input !!\033[m")
             sleep(1)
         except ValueError:
-          print(f"RDSorry '{cmd}' invalid input !!\033[m")
+          print(f"\033[31mSorry '{cmd}' invalid input !!\033[m")
           sleep(1)
 
   def update(self):
