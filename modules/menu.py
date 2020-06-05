@@ -157,7 +157,7 @@ class main:
         self.menu()
         break
       else:
-        print(f"RDSorry '{cmd}' invalid input !!\033[m")
+        print(f"\033[31mSorry '{cmd}' invalid input !!\033[m")
         sleep(1)
 
   def about(self):
@@ -206,7 +206,7 @@ class main:
         logo.exit()
         break
       else:
-        print(f"RDSorry '{cmd}' invalid input !! \033[m")
+        print(f"\033[31mSorry '{cmd}' invalid input !! \033[m")
         sleep(1)
 
 class tools:
