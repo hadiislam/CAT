@@ -24,7 +24,7 @@ class main:
         num+=1
       print("")
       logo.back()
-      cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+      cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
       if cmd=="00" or cmd=="back":
         self.menu()
         break
@@ -55,7 +55,7 @@ class main:
         num+=1
       print("")
       logo.back()
-      cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+      cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
       if cmd=="00" or cmd=="back":
         self.menu()
         break
@@ -77,7 +77,7 @@ class main:
                   cnt+=1
               print("")
               logo.back()
-              tcmd=input("\033[m[\033[32m*\033[m]\033[32m Choose : \033[m")
+              tcmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
               if tcmd=="00" or tcmd=="back":
                 break
               else:
@@ -105,7 +105,7 @@ class main:
     while True:
       os.system("clear")
       logo.update()
-      cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+      cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
       if cmd=="1":
         system=sys()
         if system.connection():
@@ -121,15 +121,15 @@ class main:
               if os.path.exists(system.bin+"/CAT") and os.path.exists(system.conf_dir+"/CAT"):
                 os.system("clear")
                 logo.updated()
-                cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+                cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
               else:
                 os.system("clear")
                 logo.update_error()
-                cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+                cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
             else:
               os.system("clear")
               logo.update_error()
-              cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+              cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
           else:
             if os.path.exists(system.home+"/CAT"):
               pass
@@ -140,19 +140,19 @@ class main:
               if os.path.exists(system.bin+"/CAT") and os.path.exists(system.conf_dir+"/CAT"):
                 os.system("clear")
                 logo.updated()
-                cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+                cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
               else:
                 os.system("clear")
                 logo.update_error()
-                cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+                cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
             else:
               os.system("clear")
               logo.update_error()
-              cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+              cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
         else:
           os.system("clear")
           logo.nonet()
-          tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+          tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
       elif cmd=="0" or cmd=="back":
         self.menu()
         break
@@ -166,7 +166,7 @@ class main:
       total=len(tool.names)
       os.system("clear")
       logo.about(total)
-      cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+      cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
       self.menu()
       break
 
@@ -177,7 +177,7 @@ class main:
       total=len(tool.names)
       os.system("clear")
       logo.menu(total)
-      cmd=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+      cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
       if cmd == "1":
         self.install_tools(self)
         break
@@ -245,7 +245,7 @@ class tools:
         if os.path.exists(system.bin+"/"+package_name):
           os.system("clear")
           logo.already_installed(name)
-          tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+          tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
         else:
           if system.sudo != None:
             os.system(system.sudo+" "+system.pac+" install "+package_name+" -y")
@@ -255,17 +255,17 @@ class tools:
           if os.path.exists(system.bin+"/"+package_name):
             os.system("clear")
             logo.installed(name)
-            tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+            tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
           else:
             os.system("clear")
             logo.not_installed(name)
-            tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+            tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
 
       elif package_manager=="git":
         if os.path.exists(system.home+"/"+package_name):
           os.system("clear")
           logo.already_installed(name)
-          tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+          tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
         else:
           if system.sudo != None:
             os.system(system.sudo+" git clone "+url+" "+system.home+"/"+package_name)
@@ -275,11 +275,11 @@ class tools:
           if os.path.exists(system.home+"/"+package_name):
             os.system("clear")
             logo.installed(name)
-            tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+            tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
           else:
             os.system("clear")
             logo.not_installed(name)
-            tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+            tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
 
       elif package_manager=="wget":
         if os.path.exists(system.home+"/"+package_name):
@@ -295,11 +295,11 @@ class tools:
           if os.path.exists(system.home+"/"+package_name):
             os.system("clear")
             logo.installed(name)
-            tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+            tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
           else:
             os.system("clear")
             logo.not_installed(name)
-            tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+            tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
 
       elif package_manager=="curl":
         if os.path.exists(system.home+"/"+package_name):
@@ -315,12 +315,12 @@ class tools:
           if os.path.exists(system.home+"/"+package_name):
             os.system("clear")
             logo.installed(name)
-            tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+            tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
           else:
             os.system("clear")
             logo.not_installed(name)
-            tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+            tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
     else:
       os.system("clear")
       logo.nonet()
-      tmp=input("\033[m[\033[32m*\033[m]\033[32m Choose :\033[m")
+      tmp=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
