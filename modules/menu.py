@@ -141,12 +141,7 @@ class main:
                 os.system("clear")
                 logo.updated()
                 cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
-
-
-
-
-
-else:
+            else:
                 os.system("clear")
                 logo.update_error()
                 cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
