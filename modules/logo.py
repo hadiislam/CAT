@@ -97,18 +97,18 @@ class logo:
   def about(self,total):
     self.tool_header()
     print (f'''
-\033[32m[+] Tool Name :- \033[mTool-X
+\033[32m[+] Tool Name :- \033[mCyberCat
 \033[32m[+] Author :- \033[m Hadi
 \033[32m[+] Tools :- \033[mtotal {total} tools.
-\033[32m[+] \033[mCyberCat is automatic tool installer.
-\033[32m[+] \033[mMade for termux and linux based system.
+\033[32m[+] \033[32mCyberCat is automatic tool installer.
+\033[32m[+] \033[32mMade for termux and linux based system.
 \033[32m[+] Note :- Use this tool at your own risk.''')
     self.tool_footer()
 
 
   @classmethod
   def install_tools(self):
-    print (""" \033[m[\033[32m*\033[m]\033[32m Select Your Tool : \033[m """)
+    print ("""\033[m[\033[32m * \033[m]\033[32m Select Your Tool : \033[m """)
 
   @classmethod
   def already_installed(self,name):
