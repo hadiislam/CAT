@@ -22,8 +22,8 @@ class logo:
 
   @classmethod
   def tool_footer(self):
-    print(''' \033[m
-=============================================== \033[m ''')
+    print('''
+''')
 
 
   @classmethod
