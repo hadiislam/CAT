@@ -1,7 +1,7 @@
 # Set a CLI color
-    #"\033[32m" # \033[32meen color
-    #\033[31m = "\033[31m" # red color
-   # \033[m = "\033[m" # Reset color
+   # \033[32m = Green color
+   # \033[31m = red color
+   # \033[m = Reset color
 
 
 
