@@ -122,6 +122,7 @@ class main:
                 os.system("clear")
                 logo.updated()
                 cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
+
                 else:
                   os.system("rm -rf "+system.bin+"/CAT")
                   os.system("rm -rf "+system.conf_dir+"/CAT")
