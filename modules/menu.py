@@ -20,12 +20,12 @@ class main:
       logo.install_tools()
       print("\007")
       for tool_name in tool.names:
-        print (f" \033[m[ \033[32m{num} \033[m] install \033[32m{tool_name}\033[m")
+        print (f"\033[m[ \033[32m{num} \033[m] install \033[32m{tool_name}\033[m")
         num+=1
       print("")
       logo.back()
       cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
-      if cmd=="00" or cmd=="back":
+      if cmd=="00" or cmd=="back" or cmd=="0":
         self.menu()
         break
       else:
@@ -39,7 +39,7 @@ class main:
             print(f"\033[31mSorry '{cmd}' invalid input !!\033[m")
             sleep(1)
         except ValueError:
-          print(f"RDSorry '{cmd}' invalid input !!")
+          print(f"\033[31mSorry '{cmd}' invalid input !!")
           sleep(1)
 
   def category(self):
