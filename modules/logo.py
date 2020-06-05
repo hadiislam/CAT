@@ -31,20 +31,20 @@ class logo:
   def not_ins(self):
     self.tool_header()
     print ('''
-\033[31m  [ + ]  \033[m We can't install CyberCat. \033[m
-\033[31m  [ + ]  \033[m There are some error. \033[m
-\033[31m  [ + ]  \033[m Please try again after some time. \033[m ''')
+\033[31m[ + ]  \033[m We can't install CyberCat. \033[m
+\033[31m[ + ]  \033[m There are some error. \033[m
+\033[31m[ + ]  \033[m Please try again after some time. \033[m ''')
     self.tool_footer()
 
   @classmethod
   def ins_tnc(self):
     self.tool_header()
     print ('''
-\033[31m  [ + ] \033[m Use It At Your Own Risk.
-\033[31m  [ + ] \033[m No Warranty.
-\033[31m  [ + ] \033[m Use it legal purpose only.
-\033[31m  [ + ] \033[m We are not responsible for your actions.
-\033[31m  [ + ] \033[m Do not do things that are forbidden.
+\033[31m[ + ] \033[m Use It At Your Own Risk.
+\033[31m[ + ] \033[m No Warranty.
+\033[31m[ + ] \033[m Use it legal purpose only.
+\033[31m[ + ] \033[m We are not responsible for your actions.
+\033[31m[ + ] \033[m Do not do things that are forbidden.
 
 \033[31m If you are installing this tool.
  that means you are agree with all terms.''')
@@ -54,42 +54,42 @@ class logo:
   def ins_sc(self):
     self.tool_header()
     print ('''
-\033[31m    [ + ] \033[m CyberCat installed successfully.
-\033[31m    [ + ] \033[m To run CyberCat.
-\033[31m    [ + ] \033[m Type CAT in your terminal.''')
+\033[31m[ + ] \033[m CyberCat installed successfully.
+\033[31m[ + ] \033[m To run CyberCat.
+\033[31m[ + ] \033[m Type CAT in your terminal.''')
     self.tool_footer()
 
   @classmethod
   def update(self):
     self.tool_header()
     print ('''
-\033[m    [\033[32m1\033[m]  Update your CyberCat.
-\033[m    [\033[32m0\033[m]  For Back.''')
+\033[m[\033[32m1\033[m]  Update your CyberCat.
+\033[m[\033[32m0\033[m]  For Back.''')
     self.tool_footer()
 
   @classmethod
   def updated(self):
     self.tool_header()
     print ('''
-\033[m      [ + ] \033[32mCyberCat Updated Successfully.
-\033[m      [ + ] \033[32mPress Enter to continue.\033[m''')
+\033[m[ + ] \033[32mCyberCat Updated Successfully.
+\033[m[ + ] \033[32mPress Enter to continue.\033[m''')
     self.tool_footer()
 
   @classmethod
   def nonet(self):
     self.tool_header()
     print ('''
-\033[31m  [ + ]  \033[mNo network connection?
-\033[31m  [ + ]  \033[mAre you offline?
-\033[31m  [ + ]  \033[mPlease try again after some time.''')
+\033[31m[ + ]  \033[mNo network connection?
+\033[31m[ + ]  \033[mAre you offline?
+\033[31m[ + ]  \033[mPlease try again after some time.''')
     self.tool_footer()
 
   @classmethod
   def update_error(self):
     self.tool_header()
     print ('''
-\033[31m  [ + ]  \033[mWe can't Update CyberCat.
-\033[31m  [ + ]  \033[mPlease try again after some time.''')
+\033[31m[ + ]  \033[mWe can't Update CyberCat.
+\033[31m[ + ]  \033[mPlease try again after some time.''')
     self.tool_footer()
 
 
@@ -97,12 +97,12 @@ class logo:
   def about(self,total):
     self.tool_header()
     print (f'''
-\033[32m       [+] Tool Name :- \033[mTool-X
-\033[32m       [+] Author :- \033[m Hadi
-\033[32m       [+] Tools :- \033[mtotal {total} tools.
-\033[32m       [+] \033[mCyberCat is automatic tool installer.
-\033[32m       [+] \033[mMade for termux and linux based system.
-\033[32m       [+] Note :- Use this tool at your own risk.''')
+\033[32m[+] Tool Name :- \033[mTool-X
+\033[32m[+] Author :- \033[m Hadi
+\033[32m[+] Tools :- \033[mtotal {total} tools.
+\033[32m[+] \033[mCyberCat is automatic tool installer.
+\033[32m[+] \033[mMade for termux and linux based system.
+\033[32m[+] Note :- Use this tool at your own risk.''')
     self.tool_footer()
 
 
@@ -114,8 +114,8 @@ class logo:
   def already_installed(self,name):
     self.tool_header()
     print(f'''
-\033[31m  [ + ] \033[m Sorry ??
-\033[31m  [ + ] \033[32m'{name}' \033[mis already Installed !!
+\033[31m[ + ] \033[m Sorry ??
+\033[31m[ + ] \033[32m'{name}' \033[mis already Installed !!
 ''')
     self.tool_footer()
 
@@ -123,8 +123,8 @@ class logo:
   def installed(self,name):
     self.tool_header()
     print(f'''
-\033[32m  [ + ] \033[mInstalled Successfully !!
-\033[32m  [ + ] \033[31m'{name}' \033[mis Installed Successfully !!
+\033[32m[ + ] \033[mInstalled Successfully !!
+\033[32m[ + ] \033[31m'{name}' \033[mis Installed Successfully !!
 ''')
     self.tool_footer()
 
@@ -132,8 +132,8 @@ class logo:
   def not_installed(self,name):
     self.tool_header()
     print(f'''
-\033[31m  [ + ] \033[mSorry ??
-\033[31m  [ + ] '{name}'\033[m is not Installed !!
+\033[31m[ + ] \033[mSorry ??
+\033[31m[ + ] '{name}'\033[m is not Installed !!
 ''')
     self.tool_footer()
 
@@ -167,6 +167,6 @@ class logo:
   def exit(self):
     self.tool_header()
     print ('''
-\033[32m         [ + ] \033[mThanks for using CyberCat
-\033[32m         [ + ] \033[mGood By..... :)\033[m''')
+\033[32m[ + ] \033[mThanks for using CyberCat
+\033[32m[ + ] \033[mGood By..... :)\033[m''')
     self.tool_footer()
