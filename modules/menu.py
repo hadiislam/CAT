@@ -126,8 +126,7 @@ class main:
                 else:
                   os.system("rm -rf "+system.bin+"/CAT")
                   os.system("rm -rf "+system.conf_dir+"/CAT")
-                  os.system("clear")
-                  os.system(" cd")
+                  os.system("cd")
                   os.system("git clone https://github.com/hadiislam/CAT")
                   os.system("cd CAT")
                   os.system("chmod +x *")
