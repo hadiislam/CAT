@@ -56,7 +56,7 @@ class main:
       print("")
       logo.back()
       cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
-      if cmd=="00" or cmd=="back":
+      if cmd=="00" or cmd=="back" or cmd=="0":
         self.menu()
         break
       else:
@@ -78,7 +78,7 @@ class main:
               print("")
               logo.back()
               tcmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
-              if tcmd=="00" or tcmd=="back":
+              if tcmd=="00" or tcmd=="back" or tcmd=="0":
                 break
               else:
                 try:
