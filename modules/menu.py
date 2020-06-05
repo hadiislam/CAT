@@ -1,6 +1,6 @@
 #Set a CLI color
      
-    \033[31m = "\033[31m" # red colo
+
 
 
 
