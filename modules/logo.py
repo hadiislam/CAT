@@ -22,7 +22,7 @@ class logo:
 
   @classmethod
   def tool_footer(self):
-    print(''' \033[32m
+    print(''' \033[m
 =============================================== \033[m ''')
 
 
@@ -46,7 +46,7 @@ class logo:
 \033[31m  [ + ] \033[m Do not do things that are forbidden.
 
 \033[31m If you are installing this tool.
- that means you are a\033[32mee with all terms.''')
+ that means you are agree with all terms.''')
     self.tool_footer()
 
   @classmethod
