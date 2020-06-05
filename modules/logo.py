@@ -155,12 +155,12 @@ class logo:
   def menu(self,total):
     self.tool_header()
     print (f'''
-\033[m  [ \033[32m1 \033[m] Show all tools.
-\033[m  [ \033[32m2 \033[m] Tools Category.
-\033[m  [ \033[32m3 \033[m] Update CyberCat.
-\033[m  [ \033[32m4 \033[m] About Us.
-\033[m  [ \033[32mU \033[m] Uninstall.
-\033[m  [ \033[32mx \033[m] For Exit.''')
+\033[m[ \033[32m1 \033[m] Show all tools.
+\033[m[ \033[32m2 \033[m] Tools Category.
+\033[m[ \033[32m3 \033[m] Update CyberCat.
+\033[m[ \033[32m4 \033[m] About Us.
+\033[m[ \033[32mU \033[m] Uninstall.
+\033[m[ \033[32mx \033[m] For Exit.''')
     self.tool_footer()
 
   @classmethod
