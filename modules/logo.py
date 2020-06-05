@@ -139,9 +139,9 @@ class logo:
 
   @classmethod
   def back(self):
-    print ("""\033[m =============================================
-\033[32m  [00] Back                                   |
- \033[m=============================================""")
+    print ("""\
+[ 00 ] Back
+ """)
 
   @classmethod
   def updating(self):
