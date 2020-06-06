@@ -51,7 +51,7 @@ class main:
       logo.tool_header()
       print("")
       for cat in tool.category:
-        print (f"  \033[m[ \033[32m{num} \033[m] {tool.category_data[cat]}\033[m")
+        print (f"\033[m[ \033[32m{num} \033[m] {tool.category_data[cat]}\033[m")
         num+=1
       print("")
       logo.back()
