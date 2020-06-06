@@ -118,11 +118,11 @@ class main:
               os.system(system.sudo+" git clone https://github.com/hadiislam/CAT.git "+system.home+"/")
             if os.path.exists(system.home+"/CAT/install.sh"):
               os.system("cd "+system.home+"/CAT && "+system.sudo+" sh install.sh")
-              if os.path.exists(system.bin+"/CAT") and os.path.exists(system.conf_dir+"/CAT"):
+              if os.path.exists(system.bin+"/CAT"):
                 os.system("cd")
                 os.system("git clone https://github.com/hadiislam/CAT")
                 os.system("cd CAT")
-                os.system("chmod +x*")
+                os.system("chmod +x *")
                 os.system("sh install.sh")
                 logo.updated()
                 cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
