@@ -137,10 +137,10 @@ class main:
             os.system("clear")
             logo.ins_sc()
                 cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
-            else:
-              os.system("clear")
-              logo.update_error()
-              cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
+            #else:
+              #os.system("clear")
+              #logo.update_error()
+              #cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
           else:
             if os.path.exists(system.home+"/CAT"):
               pass
