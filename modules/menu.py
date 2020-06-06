@@ -118,7 +118,7 @@ class main:
                 cmd=input("\033[m[\033[32m ? \033[m]\033[32m Choose : \033[m")
               else:
                 os.system("rm -rf "+system.bin+"/CAT")  
-                 os.system("rm -rf "+system.conf_dir+"/CAT")                                                                                   
+                                                                     
                 os.system("cd")
                 os.system("git clone https://github.com/hadiislam/CAT")
                 os.system("mkdir "+system.conf_dir+"/CAT")
