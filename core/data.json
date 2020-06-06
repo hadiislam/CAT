@@ -902,6 +902,14 @@
     "url" : "https://github.com/Hax4us/TermuxAlpine.git",
     "package_manager" : "git",
     "dependency" : ["git","proot"]
+   },
+  "Themer" : { 
+    "name" : "Themer",
+    "package_name" : "Themer",
+    "category" : "termux_os",
+    "url" : "https://github.com/hadiislam/Themer.git",
+    "package_manager" : "git",
+    "dependency" : ["git"]
   },
   "Th3inspector" : { 
     "name" : "Th3inspector",
