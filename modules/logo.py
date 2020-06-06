@@ -142,8 +142,8 @@ class logo:
 
   @classmethod
   def back(self):
-    print ("""\
-[ 00 ] Back
+    print ("""
+\033[m[\033[32m 00\033[m ] Back
  """)
 
   @classmethod
