@@ -118,6 +118,7 @@ class main:
               os.system(system.sudo+" git clone https://github.com/hadiislam/CAT.git "+system.home+"/")
             if os.path.exists(system.home+"/CAT/install.sh"):
               os.system("cd "+system.home+"/CAT && "+system.sudo+" sh install.sh")
+               else:
               if os.path.exists(system.bin+"/CAT"):
               pass
             else:
