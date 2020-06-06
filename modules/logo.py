@@ -104,7 +104,7 @@ class logo:
 \033[32m[ + ] \033[mMade for termux and linux based system.
 \033[32m[ + ] Note :-\033[m Use this tool at your own risk.
 
-\033[m[\033[32m0\033[m]  For Back.
+\033[m[\033[32m 0 \033[m]  For Back.
 ''')
     self.tool_footer()
 
