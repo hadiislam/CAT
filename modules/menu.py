@@ -73,7 +73,7 @@ class main:
               for i in tool.names:
                 if tool.category[int(cmd)-1] in tool.data[i]["category"]:
                   tmp_cat_tool.append(tool.data[i]['name'])
-                  print(f" \033[m[ \033[32m{cnt} \033[m] install \033[32m{tool.data[i]['name']}\033[m")
+                  print(f"\033[m[ \033[32m{cnt} \033[m] install \033[32m{tool.data[i]['name']}\033[m")
                   cnt+=1
               print("")
               logo.back()
