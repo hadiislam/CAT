@@ -34,6 +34,7 @@ class logo:
 \033[31m[ + ]  \033[m We can't install CyberCat. \033[m
 \033[31m[ + ]  \033[m There are some error. \033[m
 \033[31m[ + ]  \033[m Please try again after some time. \033[m ''')
+\033[m[\033[32m0\033[m]  For Back.
     self.tool_footer()
 
   @classmethod
@@ -45,9 +46,10 @@ class logo:
 \033[31m[ + ] \033[m Use it legal purpose only.
 \033[31m[ + ] \033[m We are not responsible for your actions.
 \033[31m[ + ] \033[m Do not do things that are forbidden.
-
 \033[31m If you are installing this tool.
- that means you are agree with all terms.''')
+ That means you are agree with all terms.
+
+\033[m[\033[32m0\033[m]  For Back.     ''')
     self.tool_footer()
 
   @classmethod
@@ -72,7 +74,8 @@ class logo:
     self.tool_header()
     print ('''
 \033[m[ + ] \033[32mCyberCat Updated Successfully.
-\033[m[ + ] \033[32mPress Enter to continue.\033[m''')
+\033[m[ + ] \033[32mPress Enter and Restart CyberCat
+      to continue.\033[m''')
     self.tool_footer()
 
   @classmethod
@@ -81,7 +84,8 @@ class logo:
     print ('''
 \033[31m[ + ]  \033[mNo network connection?
 \033[31m[ + ]  \033[mAre you offline?
-\033[31m[ + ]  \033[mPlease try again after some time.''')
+\033[31m[ + ]  \033[mPlease try again after some time.
+\033[m[\033[32m0\033[m]  For Back.   ''')
     self.tool_footer()
 
   @classmethod
@@ -89,7 +93,8 @@ class logo:
     self.tool_header()
     print ('''
 \033[31m[ + ]  \033[mWe can't Update CyberCat.
-\033[31m[ + ]  \033[mPlease try again after some time.''')
+\033[31m[ + ]  \033[mPlease try again after some time.
+\033[m[\033[32m0\033[m]  For Back.    ''')
     self.tool_footer()
 
 
@@ -97,12 +102,14 @@ class logo:
   def about(self,total):
     self.tool_header()
     print (f'''
-\033[32m[+] Tool Name :- \033[mCyberCat
-\033[32m[+] Author :- \033[m Hadi
-\033[32m[+] Tools :- \033[mtotal {total} tools.
-\033[32m[+] \033[32mCyberCat is automatic tool installer.
-\033[32m[+] \033[32mMade for termux and linux based system.
-\033[32m[+] Note :- Use this tool at your own risk.''')
+\033[32m[ + ] Tool Name :- \033[mCyberCat
+\033[32m[ + ] Author :- \033[m Hadi
+\033[32m[ + ] Tools :- \033[mtotal {total} tools.
+\033[32m[ + ] \033[32mCyberCat is automatic tool installer.
+\033[32m[ + ] \033[32mMade for termux and linux based system.
+\033[32m[ + ] Note :- Use this tool at your own risk.
+
+\033[m[\033[32m0\033[m]  For Back.''')
     self.tool_footer()
 
 
@@ -125,7 +132,7 @@ class logo:
     print(f'''
 \033[32m[ + ] \033[mInstalled Successfully !!
 \033[32m[ + ] \033[31m'{name}' \033[mis Installed Successfully !!
-''')
+\033[m[\033[32m0\033[m]  For Back.     ''')
     self.tool_footer()
 
   @classmethod
@@ -134,7 +141,7 @@ class logo:
     print(f'''
 \033[31m[ + ] \033[mSorry ??
 \033[31m[ + ] '{name}'\033[m is not Installed !!
-''')
+\033[m[\033[32m0\033[m]  For Back.''')
     self.tool_footer()
 
   @classmethod
