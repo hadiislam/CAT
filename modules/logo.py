@@ -100,9 +100,12 @@ class logo:
 \033[32m[ + ] Tool Name :- \033[mCyberCat
 \033[32m[ + ] Author :- \033[m Hadi
 \033[32m[ + ] Tools :- \033[mtotal {total} tools.
-\033[32m[ + ] \033[32mCyberCat is automatic tool installer.
-\033[32m[ + ] \033[32mMade for termux and linux based system.
-\033[32m[ + ] Note :- Use this tool at your own risk.''')
+\033[32m[ + ] \033[mCyberCat is automatic tool installer.
+\033[32m[ + ] \033[mMade for termux and linux based system.
+\033[32m[ + ] Note :-\033[m Use this tool at your own risk.
+
+\033[m[\033[32m0\033[m]  For Back.
+''')
     self.tool_footer()
 
 
