@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-      Make Termux Beautiful
+      All in One Linux Tool
 </p>
 
 <p align="center">
