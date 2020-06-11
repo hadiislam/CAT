@@ -1,9 +1,8 @@
 <p align="center">
   <img width="70%" src="core/logo.png">  
 </p>
-
 <p align="center">
-      All in One Linux Tool
+     <h2>All in One Linux Tool</h2>
 </p>
 
 <p align="center">
