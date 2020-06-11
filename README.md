@@ -2,7 +2,7 @@
   <img width="70%" src="core/logo.png">  
 </p>
 <p align="center">
-     <h2>All in One Linux Tool</h2>
+     All in One Linux Tool
 </p>
 
 <p align="center">
@@ -10,11 +10,11 @@
 <a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
+<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-3.0-green.svg?style=flat-square"></a>
 <a href="https://github.com/hadiislam/followers"><img title="Followers" src="https://img.shields.io/github/followers/hadiislam?color=blue&style=flat-square"></a>
-<a href="https://github.com/hadiislam/Themer/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/hadiislam/Themer?color=red&style=flat-square"></a>
-<a href="https://github.com/hadiislam/Themer/network/members"><img title="Forks" src="https://img.shields.io/github/forks/hadiislam/Themer?color=red&style=flat-square"></a>
-<a href="https://github.com/hadiislam/Themer/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/hadiislam/Themer?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/hadiislam/CAT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/hadiislam/CAT?color=red&style=flat-square"></a>
+<a href="https://github.com/hadiislam/CAT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/hadiislam/CAT?color=red&style=flat-square"></a>
+<a href="https://github.com/hadiislam/CAT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/hadiislam/CAT?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
 <br>
